@@ -1,0 +1,17 @@
+{
+  "profile_name": "generic_ups",
+  "description": "Generic UPS profile",
+  "oids": {
+    "battery_status": "1.3.6.1.2.1.33.1.2.1.0",
+    "battery_capacity": "1.3.6.1.2.1.33.1.2.4.0",
+    "runtime_remaining": "1.3.6.1.2.1.33.1.2.3.0",
+    "load_percentage": "1.3.6.1.2.1.33.1.4.4.1.5.1",
+    "temperature": "1.3.6.1.2.1.33.1.2.7.0",
+    "input_voltage": "1.3.6.1.2.1.33.1.3.3.1.3.1",
+    "output_voltage": "1.3.6.1.2.1.33.1.4.4.1.2.1",
+    "alarm_state": "1.3.6.1.2.1.33.1.6.2.0",
+    "battery_disconnected": "1.3.6.1.2.1.33.1.6.3.0",
+    "on_battery": "1.3.6.1.2.1.33.1.2.1.0",
+    "overload": "1.3.6.1.2.1.33.1.6.6.0"
+  }
+}

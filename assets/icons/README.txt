@@ -1,0 +1,1 @@
+UPS Guardian icon placeholder
