@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ups-guardian"
+version = "0.1.0"
+description = "UPS Guardian - Lightweight Central UPS Monitoring"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "UPS Guardian Contributors"}]
+license = {text = "MIT"}
+dependencies = [
+  "PySide6>=6.8,<7",
+  "pydantic>=2.8,<3",
+  "pysnmp>=7.1,<8"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<9",
+  "ruff>=0.8,<1"
+]
+
+[project.scripts]
+ups-guardian = "ups_guardian.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "C4", "SIM"]

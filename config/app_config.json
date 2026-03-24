@@ -1,0 +1,15 @@
+{
+  "database_path": "data/ups_guardian.db",
+  "log_path": "data/logs/ups_guardian.log",
+  "export_folder": "data/exports",
+  "poll_interval_sec": 30,
+  "poll_timeout_sec": 3,
+  "retry_count": 2,
+  "runtime_threshold_min": 20,
+  "temperature_threshold_c": 25.0,
+  "load_threshold_percent": 50.0,
+  "capacity_threshold_percent": 50.0,
+  "startup_behavior": "normal",
+  "theme": "light",
+  "default_profile": "generic_ups"
+}

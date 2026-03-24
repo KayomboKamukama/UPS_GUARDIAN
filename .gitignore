@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+build_output/
+.pytest_cache/
+.ruff_cache/
+data/*.db
+data/logs/
+data/exports/

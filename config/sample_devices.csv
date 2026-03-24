@@ -1,0 +1,8 @@
+ups_name,station,location_code,vendor,model,capacity_kva,ip_address,snmp_version,snmp_port,community_or_username,auth_protocol,priv_protocol,web_url,serial_number,install_date,monitoring_enabled,current_status,oid_profile_name,notes
+UNSA-3KVA-001,Nansana,NSA,Huawei,UPS2000,3KVA,10.0.10.11,v2c,161,public,,,https://10.0.10.11,HUA-NSA-001,2024-01-10,1,unknown,generic_ups,Nansana server room A
+UKYL-3KVA-001,Kyaliwajjala,KYL,BPC,BPC-3000,3KVA,10.0.11.21,v2c,161,public,,,https://10.0.11.21,BPC-KYL-001,2024-01-15,1,unknown,bpc_placeholder,Branch control room
+UMKN-5KVA-001,Mukono,MKN,Huawei,UPS5000,5KVA,10.0.12.31,v2c,161,public,,,https://10.0.12.31,HUA-MKN-001,2024-02-01,1,unknown,huawei_placeholder,Core switch rack
+ULWR-3KVA-001,Luwero,LWR,Generic,LinePro,3KVA,10.0.13.41,v2c,161,public,,,https://10.0.13.41,GEN-LWR-001,2024-02-07,1,unknown,generic_ups,Power bay 1
+UMTY-3KVA-001,Mityana,MTY,Generic,LinePro,3KVA,10.0.14.51,v2c,161,public,,,https://10.0.14.51,GEN-MTY-001,2024-02-20,1,unknown,generic_ups,Field office UPS
+UMSK-5KVA-001,Masaka,MSK,BPC,BPC-5000,5KVA,10.0.15.61,v2c,161,public,,,https://10.0.15.61,BPC-MSK-001,2024-03-02,1,unknown,bpc_placeholder,Main hall
+UKYT-3KVA-001,Kyotera,KYT,Huawei,UPS3000,3KVA,10.0.16.71,v2c,161,public,,,https://10.0.16.71,HUA-KYT-001,2024-03-09,1,unknown,huawei_placeholder,Distribution panel
